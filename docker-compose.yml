@@ -26,3 +26,11 @@ services:
     - springappnetwork
     
 
+
+volumes:
+  mongobkp:
+    driver: local
+
+networks:
+  springappnetwork:
+    driver: bridge
