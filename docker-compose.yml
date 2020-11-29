@@ -21,7 +21,7 @@ services:
     - MONGO_INITDB_ROOT_PASSWORD=devdb1234
     volumes:
       - mongobkp:/data/db
-	  - mongoconfig:/data/config
+      - mongoconfig:/data/config
     restart: always
     networks:
     - springappnetwork
